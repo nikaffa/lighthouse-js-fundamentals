@@ -1,4 +1,4 @@
-//how many hundreds fit it number
+//how many hundreds fit into number
 const howManyHundreds = number => {
   let modulo = number % 100;
   return (number - modulo) / 100;
